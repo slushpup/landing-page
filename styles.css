@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero {
+    background-color: #192f37;
+}
+
+ .container {
+    width: 1200px;
+    margin: 0 auto; 
+    padding: 12px 0px; 
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    /* padding: 16px 0px; */
+}
+
+.nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+    gap: 10px;
+}
+
+.info .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a, .secondary-text {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+
+.main-text {
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    padding: 10px 0;
+}
+
+
+.place-holder {
+    background-color: grey;
+    color: white;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    margin: 5px; 
+}
+
+.place-holder  h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+}
+
+.hero-text button {
+    border: 1px solid #3882f6;
+
+}
+
+.info-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card{
+    height: 180px;
+    width: 180px;
+}
+
+.card .text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box{
+     border: 3px solid #3882f6; 
+     border-radius: 8px;  
+     height: 100%;
+     width: 100%;
+}
+
+.info .container { 
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 450px;
+}    
+
+.cards{
+    display: flex;
+}
+
+.quote .container {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+}
+
+.action {
+    height:  300px;
+}
+
+.action .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.container .action-text {
+    font-size: 18px;
+    color: white;
+    padding: 20px 0;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-signup {
+    border: 1px solid white;
+    height: 100%;
+    align-self: center;
+}
+
+
+.footer {
+    background-color: #192f37;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    padding: 20px;
+}
+
+
+
+
+
+
+
